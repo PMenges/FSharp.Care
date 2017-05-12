@@ -74,6 +74,7 @@
     <Compile Include="Collections\ResizeArray.fs" />
     <Compile Include="Collections\Seq.fs" />
     <Compile Include="Collections\Tree.fs" />
+    <Compile Include="Collections\KdTree.fs" />
     <Compile Include="Monads/Either.fs" />
     <!-- Care -->
     <Compile Include="Hex.fs" />
@@ -93,9 +94,6 @@
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="FSharp.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <Private>True</Private>
-    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
